@@ -7,7 +7,7 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 - [Setting up Git and Github Desktop](#Setting-up-Git-and-Github-Desktop)
 - [Setting up Notepad++](#Setting-up-Notepad\+\+)
 - [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
-  - [Installing the Stata kernel for Jupyter Notebooks from Github.](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
+  - [Installing the Stata kernel for Jupyter Notebooks](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
 
 ---
 If you have any questions/concerns/praise, please email:
@@ -47,7 +47,7 @@ To install Jupyter Notebooks and Rstudio, please go to [https://www.anaconda.com
 
 After a lengthy installation process, you will have access to Rstudio and Jupyter notebook from the Anaconda Navigator (and notice that there is also a program called Anaconda Prompt, this will be important later). Although Jupyter Notebooks should be installed, RStudio may not be. Please go to Anaconda Navigator (it may take a while to load) and in the RStudio box, click install. If Jupyter notebooks does not show as installed, please click to install it as well.
 
-### Installing the Stata kernel for Jupyter Notebooks from Github.
+### Installing the Stata kernel for Jupyter Notebooks
 
 Jupyter Notebooks come with so-called "kernels." The kernels are basically the language that will interpret your code. But the beauty of Jupyter notebooks is that they don't need to only have a Python kernel. In fact, for our purposes, a clever guy developed a Stata kernel, that will make our life very easy. The website for the kernel is [here](https://kylebarron.github.io/stata_kernel/). 
 
