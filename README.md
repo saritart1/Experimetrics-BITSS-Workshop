@@ -101,5 +101,8 @@ Inside the ```.stata_kernel.conf```, you will find a variable called ```stata_pa
 stata_path = "C:\Users\<your username>\Stata 15\Stata15-se.exe"
 ```
 
+It should now be working!
+
+
 
   
