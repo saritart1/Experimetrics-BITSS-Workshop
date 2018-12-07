@@ -63,6 +63,6 @@ pip install stata_kernel
 python -m stata_kernel.install
 ```
 
-After this you should be done! To check if the installation worked, go to Anaconda Navigator and open a Jupyter Notebook. In the top right corner, there will be a button for ==New== and in the dropdown menu, you should see Stata as an option.
+After this you should be done! To check if the installation worked, go to Anaconda Navigator and open a Jupyter Notebook. In the top right corner, there will be a button for ```New``` and in the dropdown menu, you should see Stata as an option.
 
 If you have any concerns or problems, please email us.
