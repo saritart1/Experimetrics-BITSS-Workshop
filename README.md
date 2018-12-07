@@ -98,7 +98,7 @@ For Mac: /Users/\<your username\>
 Inside the ```.stata_kernel.conf```, you will find a variable called ```stata_path```. Write, as a string, the location of the Stata executable you are using. An example would be:
 
 ```
-stata_path = "C:\Users\\<your username\>\Stata 15\Stata15-se.exe"
+stata_path = "C:\Users\<your username>\Stata 15\Stata15-se.exe"
 ```
 
 
