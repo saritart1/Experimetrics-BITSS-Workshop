@@ -5,7 +5,7 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 ## Table of Contents
 
 - [Setting up Git and Github Desktop](#Setting-up-Git-and-Github-Desktop)
-- [Setting up Notepad++](#Setting-up-Notepad++)
+- [Setting up Notepad++](#Setting-up-Notepad\+\+)
 - [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
   - [Installing the Stata kernel for Jupyter Notebooks from Github.](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
     - [Installing ```pip```](#Installing-```pip```)
