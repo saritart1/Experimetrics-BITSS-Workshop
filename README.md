@@ -90,6 +90,8 @@ If you have any concerns or problems, please email us.
 This may be due to the stata path not being defined. There will be a file called .stata_kernel.conf in your home directory:
 
 For Windows Users: C:/Users/\<your username\>
-For Linux: /home/<your username>
-For Mac: /Users/<your username>
+
+For Linux: /home/\<your username\>
+
+For Mac: /Users/\<your username\>
   
