@@ -79,19 +79,27 @@ pip install stata_kernel
 python -m stata_kernel.install
 ```
 
-After this you should be done! To check if the installation worked, go to Anaconda Navigator and open a Jupyter Notebook. In the top right corner, there will be a button for ```New``` and in the dropdown menu, you should see Stata as an option.
+If you get an error about needing to set your Stata path manually, please refer to [Troubleshooting](#Troubleshooting), on the question about your kernel always dying. After this you should be done! To check if the installation worked, go to Anaconda Navigator and open a Jupyter Notebook. In the top right corner, there will be a button for ```New``` and in the dropdown menu, you should see Stata as an option.
 
 If you have any concerns or problems, please email us.
 
-### Troubleshooting
+## Troubleshooting
 
 > My kernel starts, but it keeps dying! What do I do?
 
-This may be due to the stata path not being defined. There will be a file called .stata_kernel.conf in your home directory:
+This may be due to the stata path not being defined. There will be a file called ```.stata_kernel.conf``` in your home directory:
 
 For Windows Users: C:/Users/\<your username\>
 
 For Linux: /home/\<your username\>
 
 For Mac: /Users/\<your username\>
+
+Inside the ```.stata_kernel.conf```, you will find a variable called ```stata_path```. Write, as a string, the location of the Stata executable you are using. An example would be:
+
+```
+stata_path = "C:\Users\\<your username\>\Stata 15\Stata15-se.exe"
+```
+
+
   
