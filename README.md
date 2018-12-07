@@ -2,6 +2,15 @@
 Resources for the workshop on dynamic documents at Universidad del Rosario
 
 ---
+## Table of Contents
+
+- [Setting up Git and Github Desktop](#Setting-up-Git-and-Github-Desktop)
+- [Setting up Notepad++](#Setting-up-Notepad++)
+- [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
+  - [Installing the Stata kernel for Jupyter Notebooks from Github.](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
+    - [Installing ```pip```](#Installing-```pip```)
+    - [Installing the Stata Kernel](#Installing-the-Stata-Kernel)
+---
 If you have any questions/concerns/praise, please email:
 
 Oscar Barriga Cabanillas
@@ -55,6 +64,8 @@ conda -c anaconda pip
 
 If this is your first foray into using a commandline, congratulations, you are now a Hacker(wo)man.
 ![alt text](http://peroty.com/blog/wp-content/uploads/2015/06/HACKERMAN.png "You did it!")
+
+#### Installing the Stata Kernel
 
 After this, in the same Anaconda Prompt, you have open now, type:
 
