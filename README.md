@@ -8,8 +8,7 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 - [Setting up Notepad++](#Setting-up-Notepad\+\+)
 - [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
   - [Installing the Stata kernel for Jupyter Notebooks from Github.](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
-    - [Installing ```pip```](#Installing-```pip```)
-    - [Installing the Stata Kernel](#Installing-the-Stata-Kernel)
+
 ---
 If you have any questions/concerns/praise, please email:
 
