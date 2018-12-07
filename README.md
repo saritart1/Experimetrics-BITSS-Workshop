@@ -70,6 +70,8 @@ If this is your first foray into using a commandline, congratulations, you are n
 
 #### Installing the Stata Kernel
 
+**Note for Windows Users**: Please follow the steps in [https://www.stata.com/automation/#install] to register your Stata with your computer before installing. 
+
 After this, in the same Anaconda Prompt, you have open now, type:
 
 ```
@@ -80,3 +82,14 @@ python -m stata_kernel.install
 After this you should be done! To check if the installation worked, go to Anaconda Navigator and open a Jupyter Notebook. In the top right corner, there will be a button for ```New``` and in the dropdown menu, you should see Stata as an option.
 
 If you have any concerns or problems, please email us.
+
+### Troubleshooting
+
+> My kernel starts, but it keeps dying! What do I do?
+
+This may be due to the stata path not being defined. There will be a file called .stata_kernel.conf in your home directory:
+
+For Windows Users: C:/Users/<your username>
+For Linux: /home/<your username>
+For Mac: /Users/<your username>
+  
