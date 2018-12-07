@@ -11,7 +11,7 @@ Please check back often for new and updated materials
 - [Setting up Git and Github Desktop](#Setting-up-Git-and-Github-Desktop)
 - [Setting up Notepad++](#Setting-up-Notepad\+\+)
 - [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
-  - [Installing the Stata kernel for Jupyter Notebooks](#Installing-the-Stata-kernel-for-Jupyter-Notebooks-from-Github)
+  - [Installing the Stata kernel for Jupyter Notebooks](#Installing-the-Stata-kernel-for-Jupyter-Notebooks)
 
 ---
 If you have any questions/concerns/praise, please email:
