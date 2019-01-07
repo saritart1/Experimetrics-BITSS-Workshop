@@ -43,6 +43,9 @@ Please install Notepad++ from [https://notepad-plus-plus.org/download/v7.6.html]
 For Windows Users: There is an installer available.
 For MacOs/Linux: There is sadly no installer available for this application, but you can still use the do-file editor for the Stata portion of the workshop.
 
+Please follow these instructions to integrate Stata with Notepad++
+[https://donlelek.github.io/2015-01-16-integrate-TE-with-stata/](https://donlelek.github.io/2015-01-16-integrate-TE-with-stata/)
+
 
 ## Setting up Jupyter Notebooks and RStudio
 
