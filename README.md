@@ -14,7 +14,9 @@ Please check back often for new and updated materials
   - [Installing the Stata kernel for Jupyter Notebooks](#Installing-the-Stata-kernel-for-Jupyter-Notebooks)
 
 ---
-If you have any questions/concerns/praise, please email:
+If you have issues installing/configuring, please open up an issue on this GitHub page
+
+If you have any praise, please email:
 
 Oscar Barriga Cabanillas
 obarriga@ucdavis.edu
