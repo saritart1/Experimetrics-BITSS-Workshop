@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1546908539 "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex" "JupyterNotebooks.pdf" "JupyterNotebooks" 1546908539
+["pdflatex"] 1546910109 "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex" "JupyterNotebooks.pdf" "JupyterNotebooks" 1546910110
   "/dev/null" 1546147057 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex" 1546908538 27776 76efd39b59b0708260d5624624bbfed3 ""
+  "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex" 1546910108 28719 15f3fcbd0616e29ffdfa274e41a24a47 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1543696176 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1543696176 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1543696176 3332 103109f5612ad95229751940c61aada0 ""
@@ -250,12 +250,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1543696176 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1546904713 2836808 09384db2c6c209ffc0386e2e6ab426f3 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1546904537 7910427 03d5bb2d0ca8e78949d2c57ed0a1083b ""
-  "JupyterNotebooks.aux" 1546908539 5628 51e5a356f8395a32dc800103a8ff1260 ""
-  "JupyterNotebooks.out" 1546908539 1210 636a73dbd53d943cda500a1637ebe70a ""
-  "JupyterNotebooks.tex" 1546908538 27776 76efd39b59b0708260d5624624bbfed3 ""
-  "JupyterNotebooks_files/output_18_0.pdf" 1546908538 9743 e5d025523094e17d1be8b84ccd6d8f7e ""
+  "JupyterNotebooks.aux" 1546910110 6140 f56ea90aee84bdbbca0ca0c57a97c23e ""
+  "JupyterNotebooks.out" 1546910110 1348 6d8abf840e76e537cfdd91d022a06e51 ""
+  "JupyterNotebooks.tex" 1546910108 28719 15f3fcbd0616e29ffdfa274e41a24a47 ""
+  "JupyterNotebooks_files/output_18_0.pdf" 1546910108 9743 e5d025523094e17d1be8b84ccd6d8f7e ""
   (generated)
-  "JupyterNotebooks.aux"
   "JupyterNotebooks.log"
+  "JupyterNotebooks.aux"
   "JupyterNotebooks.out"
   "JupyterNotebooks.pdf"
