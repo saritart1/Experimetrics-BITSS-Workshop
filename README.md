@@ -12,6 +12,7 @@ Please check back often for new and updated materials
 - [Setting up Notepad++](#Setting-up-Notepad\+\+)
 - [Setting up Jupyter Notebooks and RStudio](#Setting-up-Jupyter-Notebooks-and-RStudio)
   - [Installing the Stata kernel for Jupyter Notebooks](#Installing-the-Stata-kernel-for-Jupyter-Notebooks)
+- [Troubleshooting](#Troubleshooting)
 
 ---
 If you have issues installing/configuring, please open up an issue on this GitHub page
@@ -112,6 +113,22 @@ stata_path = "C:\Users\<your username>\Stata 15\Stata15-se.exe"
 
 It should now be working!
 
+> My kernel doesn't start and the the console states `
+AttributeError: 'StataSession' object has no attribute 'stata'`
+
+That is recent bug that has been squashed (see issue [here](https://github.com/kylebarron/stata_kernel/issues/281). Try upgrading the stata kernel: `
+
+```
+pip install stata_kernel --upgrade
+```
+
+Then run:
+
+```
+pip show stata_kernel
+```
+
+The version should say 1.10.1.
 
 
   
