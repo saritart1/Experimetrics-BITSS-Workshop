@@ -8,7 +8,7 @@ Please check back often for new and updated materials
 ---
 For a Markdown Cheatsheet, see:
 
-[](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ---
 ## Table of Contents
