@@ -6,6 +6,11 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 Please check back often for new and updated materials
 
 ---
+For a Markdown Cheatsheet, see:
+
+[](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+---
 ## Table of Contents
 
 - [Setting up Git and Github Desktop](#Setting-up-Git-and-Github-Desktop)
