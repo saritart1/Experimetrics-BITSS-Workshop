@@ -95,7 +95,7 @@ If you have any concerns or problems, please email us.
 
 ## Troubleshooting
 
-> My kernel starts, but it keeps dying! What do I do?
+1. > My kernel starts, but it keeps dying! What do I do?
 
 This may be due to the stata path not being defined. There will be a file called ```.stata_kernel.conf``` in your home directory:
 
@@ -113,7 +113,7 @@ stata_path = "C:\Users\<your username>\Stata 15\Stata15-se.exe"
 
 It should now be working!
 
-> My kernel doesn't start and the the console states `
+2. > My kernel doesn't start and the the console states `
 AttributeError: 'StataSession' object has no attribute 'stata'`
 
 That is recent bug that has been squashed (see issue [here](https://github.com/kylebarron/stata_kernel/issues/281). Try upgrading the stata kernel: `
