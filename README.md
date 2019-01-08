@@ -60,13 +60,15 @@ Jupyter Notebooks come with so-called "kernels." The kernels are basically the l
 
 We are going to go through the installation process, but his website has instructions on how to install the stata kernel, as well as some more advanced techniques that would be useful for scientific computing (some of which we will talk about).
 
-#### Installing ```pip```
+#### Checking if ```pip``` is installed
 
-In order to install the Stata kernel, we need to install ```pip```, a Python program that hosts Python programs (that's so meta). To do this, go to *Anaconda Prompt* (which I mentioned before) and type:
+In order to install the Stata kernel, we need to use ```pip```, a Python program that hosts Python programs (that's so meta). To do this, go to *Anaconda Prompt* (which I mentioned before) and type:
 
 ``` 
-conda -c anaconda pip
+pip --help
 ```
+
+If you get output from the ```pip``` command, you're GREAT!
 
 If this is your first foray into using a commandline, congratulations, you are now a Hacker(wo)man.
 ![alt text](http://peroty.com/blog/wp-content/uploads/2015/06/HACKERMAN.png "You did it!")
