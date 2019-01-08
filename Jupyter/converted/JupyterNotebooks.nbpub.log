@@ -1,17 +1,19 @@
-INFO:main:started ipypublish v0.6.7 at Mon Jan  7 20:15:14 2019
+INFO:main:started ipypublish v0.6.7 at Tue Jan  8 17:29:10 2019
 INFO:main:logging to: /home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.nbpub.log
 INFO:main:running for ipynb(s) at: JupyterNotebooks.ipynb
-INFO:main:with conversion: slides_ipypublish_nocode
+INFO:main:with conversion: latex_ipypublish_pmd
 INFO:nbmerge:Reading notebook
 INFO:main:getting output format from exporter plugin
 INFO:nbexport:running nbconvert
 INFO:latex_doc_defaults:adding ipub defaults to notebook
 INFO:split_outputs:splitting outputs into separate cells
 INFO:latex_doc_links:resolving external file paths in ipub metadata to: JupyterNotebooks.ipynb
-INFO:latex_doc_html:processing notebook for html output in ipub metadata to: JupyterNotebooks.ipynb
-INFO:latextags_to_html:converting latex tags to html
 INFO:latex_doc_captions:extracting caption cells
-INFO:slides_from_markdown:creating slides based on markdown and existing slide tags
-INFO:main:outputting converted file to: /home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.slides.html
+INFO:main:outputting converted file to: /home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex
 INFO:main:dumping external files to: /home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks_files
+INFO:main:running pdf conversion
+INFO:pdfexport:running: latexmk -xelatex -bibtex -pdf --interaction=batchmode <outpath>
+INFO:pdfexport:latexmk: Latexmk: This is Latexmk, John Collins, 25 October 2018, version: 4.61.
+INFO:pdfexport:latexmk: Latexmk: All targets (JupyterNotebooks.pdf) are up-to-date
+INFO:pdfexport:pdf conversion complete
 INFO:main:process finished successfully

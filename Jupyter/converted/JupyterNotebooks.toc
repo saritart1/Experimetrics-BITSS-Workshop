@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Jupyter Notebooks (with STATA?!)}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}What are Jupyter Notebooks?}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Under the Hood}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Extensions}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Installing Extensions}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Markdown}{2}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Showing Math}{2}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}The Stata Kernel}{3}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Running Code}{3}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Stata Kernel Magics}{4}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}\%browse, \%head, \%tail}{4}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}\%html and \%latex}{4}{subsection.1.11}
+\contentsline {subsection}{\numberline {1.12}\%help}{4}{subsection.1.12}
+\contentsline {subsection}{\numberline {1.13}Exporting}{5}{subsection.1.13}
+\contentsline {subsection}{\numberline {1.14}Using \texttt {ipypublish} to Get Publication Ready PDFs}{5}{subsection.1.14}
+\contentsline {subsection}{\numberline {1.15}Port-forwarding and setting up Jupyter to work on a server}{5}{subsection.1.15}
+\contentsline {subsection}{\numberline {1.16}Setting up jupyter on a server}{6}{subsection.1.16}
+\contentsline {subsection}{\numberline {1.17}Advanced Techniques}{6}{subsection.1.17}
+\contentsline {subsection}{\numberline {1.18}The Next Frontier}{6}{subsection.1.18}
