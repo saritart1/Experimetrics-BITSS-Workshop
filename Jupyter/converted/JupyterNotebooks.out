@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Jupyter Notebooks \(with STATA?!\)}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{What are Jupyter Notebooks?}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Under the Hood}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Extensions}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Installing Extensions}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Markdown}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{Showing Math}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{The Stata Kernel}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{Running Code}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{Stata Kernel Magics}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.10}{\045browse, \045head, \045tail}{section.1}% 11
+\BOOKMARK [2][-]{subsection.1.11}{\045html and \045latex}{section.1}% 12
+\BOOKMARK [2][-]{subsection.1.12}{\045help}{section.1}% 13
+\BOOKMARK [2][-]{subsection.1.13}{Exporting}{section.1}% 14
+\BOOKMARK [2][-]{subsection.1.14}{Using ipypublish to Get Publication Ready PDFs}{section.1}% 15
+\BOOKMARK [2][-]{subsection.1.15}{Port-forwarding and setting up Jupyter to work on a server}{section.1}% 16
+\BOOKMARK [2][-]{subsection.1.16}{Setting up jupyter on a server}{section.1}% 17
