@@ -16,10 +16,12 @@ Please check back often for new and updated materials
 ---
 If you have issues installing/configuring, please open up an issue on this GitHub page
 
-If you have any praise, please email:
+If you have any complaints, please email:
 
 Oscar Barriga Cabanillas
 obarriga@ucdavis.edu
+
+If you have any praise, please email:
 
 Aleksandr Michuda
 amichuda@ucdavis.edu
