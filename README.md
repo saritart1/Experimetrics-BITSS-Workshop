@@ -12,6 +12,10 @@ Please install these things please:
 
 `conda install -c conda-forge jupyter_contrib_nbextensions`
 
+and optionally:
+
+`pip install git+https://github.com/lordflaron/StataDoExport`
+
 ---
 For a Markdown Cheatsheet, see:
 
