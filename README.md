@@ -1,4 +1,4 @@
-# Experimetrics BITSS Workshop Sara Restrepo
+# Experimetrics BITSS Workshop Sara Restrepo Tamayo
 Resources for the workshop on dynamic documents at Universidad del Rosario
 
 ---
