@@ -433,6 +433,135 @@ Notebooks?}\label{what-are-jupyter-notebooks}}
   And now available in STATA!
 \end{itemize}
 
+\hypertarget{two-ways-to-watch-presentation}{%
+\subsection{Two ways to watch
+presentation}\label{two-ways-to-watch-presentation}}
+
+\begin{itemize}
+\tightlist
+\item
+  (Recommended) Start from an empty jupyter notebook and follow along,
+  doing similar things as me
+\item
+  (If something doesn't go right) Download this jupyter notebook, and
+  follow along
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Two ways to do that:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      go to \url{https://osf.io/dpwae/}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        click on 
+      \item
+        Above, click \texttt{Download\ as\ zip}
+      \end{itemize}
+    \item
+      If you want to see a preview of the git seminar, do the following:
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{continued}{%
+\subsubsection{Continued}\label{continued}}
+
+\begin{itemize}
+\tightlist
+\item
+  Two ways:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Method 1: Console
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Windows (only): Open Git Bash Console by pressing Start
+      -\textgreater{} cmd
+    \item
+      type
+      \texttt{cd\ \textless{}directory\ where\ you\ want\ to\ the\ repository\ to\ be\textgreater{}}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Recommended: your Documents folder
+      \end{itemize}
+    \item
+      type
+      \texttt{git\ clone\ https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git}
+    \item
+      lordflaron is me, I used to be into World of Warcraft, don't judge
+      me.
+    \end{itemize}
+  \item
+    Method 2: GitHub Desktop
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Open up Github Desktop
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Go to File -\textgreater{} Clone repository -\textgreater{} Put
+        in
+        \texttt{https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{troubleshooting}{%
+\subsection{Troubleshooting}\label{troubleshooting}}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+\begin{minipage}[b]{0.22\columnwidth}\raggedright
+Stata Kernel\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+-\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Other Stuff\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.22\columnwidth}\raggedright
+Assertion Error\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Stata Conf\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Morning Installation\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Other Other Stuff\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.22\columnwidth}\raggedright
+\texttt{pip\ install\ stata\_kernel\ -\/-upgrade}\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Go to the User Directory: Windows:
+\texttt{C:/Users/\textless{}your\ username\textgreater{}/.stata\_kernel.conf}Mac:
+\textasciitilde{}/.stata\_kernel.conf Linux: Anybody?\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+- Try the other prompt- Come here - for the StataDoExport, try -
+\texttt{pip\ install\ -\/-upgrade\ https://github.com/lordflaron/StataDoExport.git}\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Come here\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
 \hypertarget{under-the-hood}{%
 \subsection{Under the Hood}\label{under-the-hood}}
 
@@ -447,6 +576,22 @@ Notebooks?}\label{what-are-jupyter-notebooks}}
 \tightlist
 \item
   Which makes them suited for working on in a browser
+\end{itemize}
+
+\hypertarget{starting-jupyter}{%
+\subsection{Starting Jupyter}\label{starting-jupyter}}
+
+\begin{itemize}
+\tightlist
+\item
+  You can start Jupyter from any directory you want
+\item
+  By default, it starts in your documents folder
+\item
+  to change the directory, use the \texttt{-\/-notebook-dir} flag
+\item
+  Example
+  \texttt{jupyter\ notebook\ -\/-notebook-dir=C:/Documents\ and\ Settings/Users/WHATEVER}
 \end{itemize}
 
 \hypertarget{extensions}{%
@@ -582,7 +727,7 @@ open-source tools that have existed for upwards of a decade.
          mpg |  -49.51222   86.15604    -0.57   0.567    -221.3025     122.278
        _cons |   1946.069    3597.05     0.54   0.590    -5226.245    9118.382
 ------------------------------------------------------------------------------
-(est5 stored)
+(est7 stored)
 
       Source |       SS           df       MS      Number of obs   =        74
 -------------+----------------------------------   F(3, 70)        =     23.29
@@ -599,7 +744,7 @@ open-source tools that have existed for upwards of a decade.
      foreign |    3673.06   683.9783     5.37   0.000     2308.909    5037.212
        _cons |  -5853.696   3376.987    -1.73   0.087    -12588.88    881.4934
 ------------------------------------------------------------------------------
-(est6 stored)
+(est8 stored)
 
 \end{lstlisting}
 
@@ -641,35 +786,38 @@ open-source tools that have existed for upwards of a decade.
   as well as rendering in the notebook (with HTML only)
 \end{itemize}
 
-\begin{table}[H]\caption{A table}\label{tbl:tlabel}
+\begin{lstlisting}[language={},postbreak={},numbers=none,xrightmargin=7pt,breakindent=0pt,aboveskip=5pt,belowskip=5pt]
+This front-end or document format cannot display HTML
+\end{lstlisting}
+
+\hypertarget{latex}{%
+\subsubsection{\%latex}\label{latex}}
+
+\begin{table}[H]\caption{A regression table or something}\label{tbl:tlabelreg2}
 
 \centering
 \begin{adjustbox}{max width=\textwidth}\rowcolors{2}{gray!20}{white}
-(tabulating estimates stored by eststo; specify "." to tabulate the active results)
 
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{6}{c}}
+\begin{tabular}{l*{1}{c}}
 \hline\hline
-            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
-            &\multicolumn{1}{c}{price}&\multicolumn{1}{c}{price}&\multicolumn{1}{c}{price}&\multicolumn{1}{c}{price}&\multicolumn{1}{c}{price}&\multicolumn{1}{c}{price}\\
+            &\multicolumn{1}{c}{(1)}\\
+            &\multicolumn{1}{c}{price}\\
 \hline
-weight      &       1.747\sym{**} &       3.465\sym{***}&       1.747\sym{**} &       3.465\sym{***}&       1.747\sym{**} &       3.465\sym{***}\\
-            &      (2.72)         &      (5.49)         &      (2.72)         &      (5.49)         &      (2.72)         &      (5.49)         \\
+mpg         &      -49.51         \\
+            &     (-0.57)         \\
 [1em]
-mpg         &      -49.51         &       21.85         &      -49.51         &       21.85         &      -49.51         &       21.85         \\
-            &     (-0.57)         &      (0.29)         &     (-0.57)         &      (0.29)         &     (-0.57)         &      (0.29)         \\
+weight      &       1.747\sym{**} \\
+            &      (2.72)         \\
 [1em]
-foreign     &                     &      3673.1\sym{***}&                     &      3673.1\sym{***}&                     &      3673.1\sym{***}\\
-            &                     &      (5.37)         &                     &      (5.37)         &                     &      (5.37)         \\
-[1em]
-\_cons      &      1946.1         &     -5853.7         &      1946.1         &     -5853.7         &      1946.1         &     -5853.7         \\
-            &      (0.54)         &     (-1.73)         &      (0.54)         &     (-1.73)         &      (0.54)         &     (-1.73)         \\
+\_cons      &      1946.1         \\
+            &      (0.54)         \\
 \hline
-\(N\)       &          74         &          74         &          74         &          74         &          74         &          74         \\
+\(N\)       &          74         \\
 \hline\hline
-\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
-\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\multicolumn{2}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
 \end{tabular}
 }
 
@@ -705,46 +853,18 @@ foreign     &                     &      3673.1\sym{***}&                     & 
 
 The mean of price is 6165.257.
 
-\begin{table}[H]\caption{A regression table or something}\label{tbl:tlabelreg2}
+\hypertarget{figures}{%
+\subsection{Figures}\label{figures}}
 
-\centering
-\begin{adjustbox}{max width=\textwidth}\rowcolors{2}{gray!20}{white}
-
-{
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{1}{c}}
-\hline\hline
-            &\multicolumn{1}{c}{(1)}\\
-            &\multicolumn{1}{c}{price}\\
-\hline
-mpg         &      -49.51         \\
-            &     (-0.57)         \\
-[1em]
-weight      &       1.747\sym{**} \\
-            &      (2.72)         \\
-[1em]
-\_cons      &      1946.1         \\
-            &      (0.54)         \\
-\hline
-\(N\)       &          74         \\
-\hline\hline
-\multicolumn{2}{l}{\footnotesize \textit{t} statistics in parentheses}\\
-\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
-\end{tabular}
-}
-
-\end{adjustbox}
-\end{table}
-
-\begin{figure}[H]\begin{center}\adjustimage{max size={0.9\linewidth}{0.9\paperheight},height=0.4\paperheight}{JupyterNotebooks_files/output_21_0.pdf}\end{center}\caption{A scatter plot}\label{fig:flabel}
+\begin{figure}[H]\begin{center}\adjustimage{max size={0.9\linewidth}{0.9\paperheight},height=0.4\paperheight}{JupyterNotebooks_files/output_27_0.pdf}\end{center}\caption{A scatter plot}\label{fig:flabel}
     \end{figure}
 
 \hypertarget{exporting}{%
 \subsection{Exporting}\label{exporting}}
 
 \hypertarget{using-ipypublish-to-get-publication-ready-pdfs}{%
-\subsection{\texorpdfstring{Using \texttt{ipypublish} to Get Publication
-Ready
+\subsubsection{\texorpdfstring{Using \texttt{ipypublish} to Get
+Publication Ready
 PDFs}{Using ipypublish to Get Publication Ready PDFs}}\label{using-ipypublish-to-get-publication-ready-pdfs}}
 
 \begin{itemize}
@@ -798,7 +918,7 @@ server}\label{port-forwarding-and-setting-up-jupyter-to-work-on-a-server}}
 \end{itemize}
 
 \hypertarget{setting-up-jupyter-on-a-server}{%
-\subsection{Setting up jupyter on a
+\subsubsection{Setting up jupyter on a
 server}\label{setting-up-jupyter-on-a-server}}
 
 \begin{itemize}
@@ -878,6 +998,30 @@ server}\label{setting-up-jupyter-on-a-server}}
   \tightlist
   \item
     All the above applies (with even more features with Python)
+  \end{itemize}
+\item
+  Containerization (Docker or \texttt{virtualenv})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Extreme Dynamic Documents
+  \item
+    Allows not just to reproduce the code and writing
+  \item
+    But also packages (\texttt{virtualenv}) and even state of operating
+    system (\texttt{docker})
+  \item
+    Allows freezing of package dependencies so that updated packages
+    don't stop replication
+  \item
+    Relatively easier way done in \texttt{binder}
+  \item
+    This uses a public GitHub repository with some special files into a
+    docker container
+  \item
+    See an example
+    \href{https://mybinder.org/v2/gh/wildtreetech/explore-open-data/binder20-elife?filepath=bikes-per-week.ipynb}{here}
   \end{itemize}
 \end{itemize}
 

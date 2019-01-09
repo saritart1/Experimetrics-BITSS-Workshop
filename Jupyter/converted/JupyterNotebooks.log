@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.1.7)  9 JAN 2019 09:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.1.7)  9 JAN 2019 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1492,7 +1492,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 1.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 1.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 22.
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1529,52 +1529,78 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 417.
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [2
 
-] [3]
+Overfull \hbox (11.76701pt too wide) in paragraph at lines 500--503
+[]\T1/ppl/m/n/10 (-20) type \T1/cmtt/m/n/10 git clone https://github.com/lordfl
+aron/Experimetrics-BITSS-Workshop.git 
+ []
+
+
+Overfull \hbox (121.50089pt too wide) in paragraph at lines 517--520
+[]\T1/ppl/m/n/10 (-20) Go to File -> Clone repos-i-tory -> Put in \T1/cmtt/m/n/
+10 https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git 
+ []
+
+
+Overfull \hbox (67.03252pt too wide) in paragraph at lines 553--556
+\T1/cmtt/m/n/10 username>/.stata_kernel.conf\T1/ppl/m/n/10 (-20) Mac: 
+ []
+
+
+Overfull \hbox (147.03627pt too wide) in paragraph at lines 557--559
+\T1/cmtt/m/n/10 https://github.com/lordflaron/StataDoExport.git|  
+ []
+
+
+Overfull \vbox (24.40532pt too high) has occurred while \output is active []
+
+[2
+
+] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [3] [4]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 644.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 796.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 672.
+(Font)              scaled to size 5.21004pt on input line 820.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 672.
-[4]
-<JupyterNotebooks_files/output_21_0.pdf, id=214, 397.485pt x 289.08pt>
-File: JupyterNotebooks_files/output_21_0.pdf Graphic file (type pdf)
-<use JupyterNotebooks_files/output_21_0.pdf>
-Package pdftex.def Info: JupyterNotebooks_files/output_21_0.pdf  used on input 
-line 739.
+(Font)              scaled to size 5.21004pt on input line 820.
+[5]
+<JupyterNotebooks_files/output_27_0.pdf, id=253, 397.485pt x 289.08pt>
+File: JupyterNotebooks_files/output_27_0.pdf Graphic file (type pdf)
+<use JupyterNotebooks_files/output_27_0.pdf>
+Package pdftex.def Info: JupyterNotebooks_files/output_27_0.pdf  used on input 
+line 859.
 (pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
 
-Overfull \hbox (11.82681pt too wide) in paragraph at lines 739--739
+Overfull \hbox (11.82681pt too wide) in paragraph at lines 859--859
  [] 
  []
 
-[5]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 748.
-[6 <./JupyterNotebooks_files/output_21_0.pdf>] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 899.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 899.
+[6]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 868.
+[7 <./JupyterNotebooks_files/output_27_0.pdf>] [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1043.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1043.
 (./JupyterNotebooks.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 899.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 899.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1043.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1043.
+
 Package rerunfilecheck Info: File `JupyterNotebooks.out' has not changed.
-(rerunfilecheck)             Checksum: A4828CC90EA0CB8C9C158E4A3647EE7B;1415.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 899.
+(rerunfilecheck)             Checksum: 3A6848051D215A78DFDEDB63FAA5E74A;1849.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1043.
  ) 
 Here is how much of TeX's memory you used:
- 42099 strings out of 492639
- 816174 string characters out of 6135498
+ 42137 strings out of 492639
+ 816831 string characters out of 6135498
  1443970 words of memory out of 5000000
- 45216 multiletter control sequences out of 15000+600000
- 573693 words of font info for 152 fonts, out of 8000000 for 9000
+ 45237 multiletter control sequences out of 15000+600000
+ 573539 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,19n,84p,9169b,1369s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
-exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf-dist
@@ -1582,15 +1608,14 @@ mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 blic/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 fsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></u
 sr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-
-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi
-8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/palatino/uplri8a.pfb>
-Output written on JupyterNotebooks.pdf (7 pages, 243270 bytes).
+dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
+/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
+b></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-
+dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on JupyterNotebooks.pdf (8 pages, 230626 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 93 named destinations out of 1000 (max. 500000)
- 35090 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 34626 words of extra memory for PDF output out of 35830 (max. 10000000)
 
