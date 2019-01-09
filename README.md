@@ -6,7 +6,7 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 Please check back often for new and updated materials
 
 ---
-Please install these things please:
+Please install these utilities:
 
 `pip install ipypublish`
 
