@@ -6,6 +6,13 @@ Resources for the workshop on dynamic documents at Universidad del Rosario
 Please check back often for new and updated materials
 
 ---
+Please install these things please:
+
+`pip install ipypublish`
+
+`conda install -c conda-forge jupyter_contrib_nbextensions`
+
+---
 For a Markdown Cheatsheet, see:
 
 [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
