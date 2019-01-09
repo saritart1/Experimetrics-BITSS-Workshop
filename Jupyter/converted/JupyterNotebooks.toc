@@ -10,10 +10,11 @@
 \contentsline {subsection}{\numberline {1.9}Stata Kernel Magics}{4}{subsection.1.9}
 \contentsline {subsection}{\numberline {1.10}\%browse, \%head, \%tail}{4}{subsection.1.10}
 \contentsline {subsection}{\numberline {1.11}\%html and \%latex}{4}{subsection.1.11}
-\contentsline {subsection}{\numberline {1.12}\%help}{4}{subsection.1.12}
-\contentsline {subsection}{\numberline {1.13}Exporting}{5}{subsection.1.13}
-\contentsline {subsection}{\numberline {1.14}Using \texttt {ipypublish} to Get Publication Ready PDFs}{5}{subsection.1.14}
-\contentsline {subsection}{\numberline {1.15}Port-forwarding and setting up Jupyter to work on a server}{5}{subsection.1.15}
-\contentsline {subsection}{\numberline {1.16}Setting up jupyter on a server}{6}{subsection.1.16}
-\contentsline {subsection}{\numberline {1.17}Advanced Techniques}{6}{subsection.1.17}
-\contentsline {subsection}{\numberline {1.18}The Next Frontier}{6}{subsection.1.18}
+\contentsline {subsection}{\numberline {1.12}\%help}{5}{subsection.1.12}
+\contentsline {subsection}{\numberline {1.13}Code in Markdown}{5}{subsection.1.13}
+\contentsline {subsection}{\numberline {1.14}Exporting}{6}{subsection.1.14}
+\contentsline {subsection}{\numberline {1.15}Using \texttt {ipypublish} to Get Publication Ready PDFs}{6}{subsection.1.15}
+\contentsline {subsection}{\numberline {1.16}Port-forwarding and setting up Jupyter to work on a server}{6}{subsection.1.16}
+\contentsline {subsection}{\numberline {1.17}Setting up jupyter on a server}{7}{subsection.1.17}
+\contentsline {subsection}{\numberline {1.18}Advanced Techniques}{7}{subsection.1.18}
+\contentsline {subsection}{\numberline {1.19}The Next Frontier}{7}{subsection.1.19}

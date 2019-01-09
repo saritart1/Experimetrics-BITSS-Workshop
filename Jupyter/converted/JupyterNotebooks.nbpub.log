@@ -1,4 +1,4 @@
-INFO:main:started ipypublish v0.6.7 at Tue Jan  8 17:29:10 2019
+INFO:main:started ipypublish v0.6.7 at Wed Jan  9 09:03:51 2019
 INFO:main:logging to: /home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.nbpub.log
 INFO:main:running for ipynb(s) at: JupyterNotebooks.ipynb
 INFO:main:with conversion: latex_ipypublish_pmd
@@ -14,6 +14,41 @@ INFO:main:dumping external files to: /home/lordflaron/Documents/Experimetrics-BI
 INFO:main:running pdf conversion
 INFO:pdfexport:running: latexmk -xelatex -bibtex -pdf --interaction=batchmode <outpath>
 INFO:pdfexport:latexmk: Latexmk: This is Latexmk, John Collins, 25 October 2018, version: 4.61.
+INFO:pdfexport:latexmk: Rule 'pdflatex': File changes, etc:
+INFO:pdfexport:latexmk: Changed files, or newly in use since previous run(s):
+INFO:pdfexport:latexmk: '/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex'
+INFO:pdfexport:latexmk: 'JupyterNotebooks.tex'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: Run number 1 of rule 'pdflatex'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: Running 'pdflatex  --interaction=batchmode -recorder  "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex"'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: Latexmk: applying rule 'pdflatex'...
+INFO:pdfexport:latexmk: This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex)
+INFO:pdfexport:latexmk: restricted \write18 enabled.
+INFO:pdfexport:latexmk: entering extended mode
+INFO:pdfexport:latexmk: Latexmk: References changed.
+INFO:pdfexport:latexmk: Latexmk: References changed.
+INFO:pdfexport:latexmk: Latexmk: Log file says output to 'JupyterNotebooks.pdf'
+INFO:pdfexport:latexmk: Rule 'pdflatex': File changes, etc:
+INFO:pdfexport:latexmk: Changed files, or newly in use since previous run(s):
+INFO:pdfexport:latexmk: 'JupyterNotebooks.aux'
+INFO:pdfexport:latexmk: 'JupyterNotebooks.out'
+INFO:pdfexport:latexmk: 'JupyterNotebooks.toc'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: Run number 2 of rule 'pdflatex'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: Running 'pdflatex  --interaction=batchmode -recorder  "/home/lordflaron/Documents/Experimetrics-BITSS-Workshop/Jupyter/converted/JupyterNotebooks.tex"'
+INFO:pdfexport:latexmk: ------------
+INFO:pdfexport:latexmk: === TeX engine is 'pdfTeX'
+INFO:pdfexport:latexmk: Latexmk: applying rule 'pdflatex'...
+INFO:pdfexport:latexmk: This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex)
+INFO:pdfexport:latexmk: restricted \write18 enabled.
+INFO:pdfexport:latexmk: entering extended mode
+INFO:pdfexport:latexmk: Latexmk: Log file says output to 'JupyterNotebooks.pdf'
+INFO:pdfexport:latexmk: === TeX engine is 'pdfTeX'
 INFO:pdfexport:latexmk: Latexmk: All targets (JupyterNotebooks.pdf) are up-to-date
 INFO:pdfexport:pdf conversion complete
 INFO:main:process finished successfully
